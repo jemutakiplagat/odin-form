@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+form{
+    width: 1000px;
+    background-color: beige;
+    height: 200px;
+    padding-left: 10px;
+    top: 20px;
+    margin-left: 450px;
+    margin-top: 50px;
+    padding-top: 20px;
+    margin-top: -50px;
+    cursor: pointer;
+    align-items: center;
+
+}
+body{
+    background-color: aliceblue;
+}
+h1{
+    color: aliceblue;
+   margin-left: 2px ;
+  margin-top: -600px;
+  background-color: rgba(0, 0, 0, 0.507);
+  padding-left: 200px;
+  margin-right: 900px;
+ height: 150px;
+ padding-top: 20px;
+ font-style: italic;
+ font-family: fantasy;
+font-size: 100px;
+}
+
+ .row {
+    /* background: #f6f6f6;  */
+    /* border: 1px solid #ccc; */
+    overflow: hidden;
+     /* padding: 10px; */
+     }
+     input:focus{
+       /* box-shadow: aqua; */
+       box-shadow: 1px 1px 1px 1px rgb(41, 4, 253);
+       border: 1px solid blue;
+       outline: none;
+      
+     }
+     
+
+.col {
+    float: left;
+    width: 50%
+}
+#button{
+    margin-left: 500px;
+    width: 200px;
+    height: 40px;
+    border-radius: 3px;
+    background-color:#596D48 ;
+    color: aliceblue;
+    font-size: large;
+    cursor: pointer;
+ }
+ h3{
+    margin-left: 400px;
+    margin-left: 500px;
+
+    
+}
+#fname{
+    
+    width: 180px;
+    border-radius: 5px;
+  
+
+}
+#lname{
+    border-radius: 5px;
+    width: 180px;
+} 
+#mail{
+    border-radius: 5px;
+    width: 180px;
+}
+#psw1{
+    border-radius: 5px;
+    width: 180px;
+}
+
+#tel{
+    border-radius: 5px;
+    width: 180px;
+}
+#psw{
+    border-radius: 5px;
+    width: 180px;
+}
+aside{
+    padding-top: 200px;
+    margin-top: -400px;
+    background-image: url(https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);height: 1000px; width: 455px;
+    background-repeat: no-repeat;
+    margin-left: -5px;
+  background-position: left;
+background-size: cover;
+
+    }
+
+
+ img{ 
+    padding-top: 50px;
+    padding-left: 10px;
+    margin-top: 150px;
+  
+} 
+h2{
+     margin-left: 500px;
+     margin-top: 50px;
+      
+}
+
+    
+
+ /* @media screen and (max-width: 600px){ 
+    aside, h1, h2, h3, footer, form{
+        flex-flow: column;
+        height: auto;
+        text-align: center
+        
+    }
+
+    
+  */
+  @media screen and (max-width: 600px) {
+    .row, .col input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
